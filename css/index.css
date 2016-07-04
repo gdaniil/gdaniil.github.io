@@ -126,7 +126,6 @@ body {
 }
 
 .header {
-  position: relative;
   float: left;
   width: 100%;
   height: 543px;
@@ -293,7 +292,7 @@ body {
 
 .pitch-1_img {
   float: left;
-  width: 99.5575221238%;
+  width: 100%;
   height: 147px;
   background: url('../images/%D0%BD%D1%81%D0%BA.jpg') rgb(222, 222, 222);
   background-size: cover;
@@ -315,7 +314,7 @@ body {
   top: 0;
   left: -0.0622277536%;
   z-index: 34;
-  width: 99.5574915301%;
+  width: 100%;
   height: 147px;
   background: url('../images/%D0%B1%D0%B0%D0%BD%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0.jpg') rgb(222, 222, 222);
   background-size: cover;
@@ -336,7 +335,7 @@ body {
   top: 0;
   left: -0.0967987278%;
   z-index: 40;
-  width: 99.5574915301%;
+  width: 100%;
   height: 147px;
   background: url('../images/5%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82.jpg') rgb(222, 222, 222);
   background-size: cover;
@@ -667,7 +666,7 @@ body {
   word-wrap: normal;
   white-space: normal;
 }
-.header-scroll {
+.header-scroll {    
     display: block;
     height: 110px;
 }
