@@ -305,9 +305,9 @@ body {
   float: left;
   width: 28.3563362609%;
   height: 312px;
-  margin-left: 7.40109%;
   background-color: rgb(222, 222, 222);
   box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, .5);
+  margin: 0px 10px 0px 10px;
 }
 
 .pitch-2_img {
@@ -327,7 +327,6 @@ body {
   float: left;
   width: 28.3563362609%;
   height: 312px;
-  margin-left: 7.51088%;
   background-color: rgb(222, 222, 222);
   box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, .5);
 }
@@ -347,14 +346,17 @@ body {
 .pitch-carousel {
   float: left;
   clear: both;
-  width: 66.4140625%;
+  width: 66%;
   height: 312px;
-  margin: 22px 0 0 16.83073%;
+  margin: 22px 20%;
 }
 
 .pitch_text {
   font-family: Open Sans;
   color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+  margin-top: 10px ;
 }
 
 .recommend {
@@ -528,8 +530,10 @@ body {
 
 .pitch_text-1 {
   float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px ;
   clear: both;
-  margin: 11px 0 0 10.6132899999%;
   font-size: 1em;
   font-weight: 700;
 }
@@ -539,7 +543,6 @@ body {
   float: left;
   clear: both;
   z-index: 30;
-  width: 99.5575221238%;
   min-height: 41px;
   margin-top: 11px;
   font-size: 0.875em;
@@ -547,16 +550,17 @@ body {
 }
 
 .pitch_text-3 {
-  position: absolute;
-  top: 221px;
-  left: 17.7003387955%;
   z-index: 31;
   font-size: 1em;
 }
 
 .pitch_text-4 {
+  margin: 158px 0 0 26.08726%;
   float: left;
-  margin: 158px 0 0 6.18129%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px ;
+  clear: both;
   font-size: 1em;
   font-weight: 700;
 }
@@ -566,7 +570,6 @@ body {
   float: left;
   clear: both;
   z-index: 37;
-  width: 99.5575221238%;
   min-height: 41px;
   margin-top: 11px;
   font-size: 0.875em;
@@ -574,9 +577,6 @@ body {
 }
 
 .pitch_text-6 {
-  position: absolute;
-  top: 221px;
-  left: 25.6585770587%;
   z-index: 38;
   font-size: 1em;
 }
@@ -686,7 +686,7 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 .headhesive--stick .languages {
-    display: none;
+    opacity:0;
 }
 .headhesive--stick .header_logo{
     height: 30px;
@@ -707,4 +707,14 @@ body {
 }
 .headhesive--stick .signup_text{
     top:10%;
+}
+.pitch-2, .pitch-3, .pitch-1 {
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 15px;
+}
+.headhesive--stick .header_darken{
+    display: none;
+}
+.headhesive--stick .header_search{
+    display: none;
 }
