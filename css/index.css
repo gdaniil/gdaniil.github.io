@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 436px;
   margin-top: 41px;
-  background-color: rgba(207, 232, 203, 0.63);
+  background-color: #8DB255;
 }
 
 .football {
@@ -208,24 +208,9 @@ body {
   margin: 13px 0 0 16%;
 }
 
-.image-languages {
-  display: block;
-  float: left;
-  width: 145px;
-  height: auto;
-  margin: 5px 19px;
-  overflow: hidden;
-}
 
-.languages {
-  position: absolute;
-  top: 11px;
-  left: 74%;
-  z-index: 52;
-  width: 180px;
-  height: 23px;
-  background-color: rgba(15, 3, 3, 0.51);
-}
+
+
 
 .about,
 .login {
@@ -251,17 +236,10 @@ body {
   clear: both;
   width: 68%;
   height: 436px;
-  margin: 18px 0 0 16%;
+  margin: 70px 0 70px 16%;
 }
 
-.map-img {
-  float: left;
-  width: 100%;
-  height: 436px;
-  background: url('../images/%D0%BA%D0%B0%D1%80%D1%82%D0%B0.JPG') rgb(222, 222, 222);
-  background-size: cover;
-  background-position: center center;
-}
+
 
 .navigation {
   position: absolute;
@@ -284,10 +262,11 @@ body {
 .pitch-1 {
   position: relative;
   float: left;
-  width: 28.3563362609%;
+  width: 20%;
   height: 312px;
-  background-color: rgb(222, 222, 222);
-  box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, .5);
+  background-color: #fff;
+  box-shadow: 4px 8px 5px 2px rgba(137, 137, 137, 0.28);
+  margin: 0 10px 0 10px;
 }
 
 .pitch-1_img {
@@ -302,11 +281,11 @@ body {
 .pitch-2 {
   position: relative;
   float: left;
-  width: 28.3563362609%;
+  width: 20%;
   height: 312px;
-  background-color: rgb(222, 222, 222);
-  box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, .5);
-  margin: 0px 10px 0px 10px;
+  background-color: #fff;
+  box-shadow: 4px 8px 5px 2px rgba(137, 137, 137, 0.28);
+  margin: 0 10px 0 10px;
 }
 
 .pitch-2_img {
@@ -324,10 +303,10 @@ body {
 .pitch-3 {
   position: relative;
   float: left;
-  width: 28.3563362609%;
+  width: 20%;
   height: 312px;
-  background-color: rgb(222, 222, 222);
-  box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, .5);
+  background-color: #fff;
+  box-shadow: 4px 8px 5px 2px rgba(137, 137, 137, 0.28);
 }
 
 .pitch-3_img {
@@ -345,7 +324,7 @@ body {
 .pitch-carousel {
   float: left;
   clear: both;
-  width: 66%;
+  width: 880px;
   height: 312px;
   margin: 22px 20%;
 }
@@ -364,7 +343,7 @@ body {
   font-family: Open Sans;
   font-size: 2.563em;
   letter-spacing: 4px;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .signup_btn {
@@ -477,9 +456,8 @@ body {
   display: block;
   float: left;
   clear: both;
-  width: 61.5113384955%;
+  width: 61%;
   height: 39px;
-  margin-top: 30px;
   border-radius: 5px;
   background-color: rgb(40, 160, 52);
   font-family: Verdana;
@@ -487,16 +465,13 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-top: 10px;
 }
 
-.pitch-1 ._button {
-  margin-left: 19.03478%;
-}
 
-.pitch-2 ._button,
-.pitch-3 ._button {
-  margin-left: 19.02095%;
-}
+
+
 
 .footer_sport-1 {
   margin-top: 28px;
@@ -543,7 +518,7 @@ body {
   clear: both;
   z-index: 30;
   min-height: 41px;
-  margin-top: 11px;
+  margin-top: 10px;
   font-size: 0.875em;
   text-align: center;
 }
@@ -554,12 +529,8 @@ body {
 }
 
 .pitch_text-4 {
-  margin: 158px 0 0 26.08726%;
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-top: 10px ;
-  clear: both;
+ float: left;
+  margin: 158px 0 0 0;
   font-size: 1em;
   font-weight: 700;
 }
@@ -582,7 +553,7 @@ body {
 
 .pitch_text-7 {
   float: left;
-  margin: 158px 0 0 26.08726%;
+  margin: 158px 0 0 0;
   font-size: 1em;
   font-weight: 700;
 }
@@ -592,19 +563,17 @@ body {
   float: left;
   clear: both;
   z-index: 43;
-  width: 99.5575221238%;
+  width: 100%;
   min-height: 41px;
-  margin: 11px 0 0 0.42177%;
   font-size: 0.875em;
   text-align: center;
 }
 
 .pitch_text-9 {
-  position: absolute;
-  top: 221px;
-  left: 27.8711194081%;
+  position: relative;
   z-index: 44;
   font-size: 1em;
+    
 }
 
 .step-1 {
@@ -670,50 +639,17 @@ body {
     display: block;
     height: 110px;
 }
-/*scroll*/
-.headhesive{
-    background: #000;
-    position: fixed;
-    width: 100%;
-    opacity: 0;
-    transition: 0.4s;
-    z-index: 100;
-}
-.headhesive--stick{
-    opacity: 1;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.headhesive--stick .languages {
-    opacity:0;
-}
-.headhesive--stick .header_logo{
-    height: 30px;
-    width: auto;
-    top: -25px;
-    transition: 0.4s;
-}
-.headhesive--stick .navigation{
-    top: 5px;
-}
-.headhesive--stick .nav{
-    font-size: 14px;  
-}
-.headhesive--stick .signup_btn{
-    top: 5px;
-    height: 30px;
-    width: 150px;
-}
-.headhesive--stick .signup_text{
-    top:10%;
-}
-.pitch-2, .pitch-3, .pitch-1 {
-    margin: 0px 10px 0px 10px;
-    padding-bottom: 15px;
-}
-.headhesive--stick .header_darken{
-    display: none;
-}
-.headhesive--stick .header_search{
-    display: none;
+
+/*scroll*/ 
+.headhesive{ 
+background: rgba(0, 0, 0, 0); 
+position: fixed; 
+width: 100%; 
+opacity: 1; 
+transition: 0.4s; 
+z-index: 100; 
+} 
+.headhesive--stick{ 
+opacity: 1; 
+background-color: rgba(0, 0, 0, 0.7);
 }

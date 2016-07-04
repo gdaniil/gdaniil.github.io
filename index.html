@@ -12,7 +12,8 @@
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body class="body page-index clearfix">
- <div class="header-scroll">
+  <header class="header clearfix" id="header">    
+    <div class="header-scroll">
     <div class="header_logo"></div>
     <nav class="navigation clearfix">
       <a class="nav main" href="#">Главная</a>
@@ -21,11 +22,6 @@
       <a class="nav signup_btn" href="#"><p class="signup_text">Регистрация</p></a> 
     </nav>
 </div>
-  <header class="header clearfix" id="header">    
-
-  <div class="languages clearfix">
-      <img class="image-languages" src="images/яз.png">
-    </div>
    <div class="header_darken"></div>
     <div class="header_search clearfix">
       <div class="header_sports clearfix">
@@ -84,7 +80,7 @@
     </div>
   </div>
   <div class="map clearfix">
-    <div class="map-img"></div>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=njTaNaGU1PWLQe1iaab6IvUIhIj8q8E1&width=960&height=450&lang=ru_UA&sourceType=constructor&scroll=true"></script>
   </div>
   <footer class="footer clearfix">
     <div class="footer_logo"></div>
@@ -110,7 +106,7 @@
   <script src="js/headhesive.min.js"></script>
   <script>
       var options = {
-  offset: 150
+  offset: 50
       }
     var header = new Headhesive('.header-scroll', options);
   </script>
