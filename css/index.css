@@ -676,12 +676,12 @@ body {
     background: #000;
     position: fixed;
     width: 100%;
-    transform: translateY(-100%);
-    transition: 0.3s;
+    opacity: 0;
+    transition: 0.4s;
     z-index: 100;
 }
 .headhesive--stick{
-    transform: translateY(0);
+    opacity: 1;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -692,7 +692,7 @@ body {
     height: 30px;
     width: auto;
     top: -25px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .headhesive--stick .navigation{
     top: 5px;
