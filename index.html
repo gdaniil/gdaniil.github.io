@@ -1,117 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0">
-  <title>index</title>
-  <link href="http://fonts.googleapis.com/css?family=Rokkitt:700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/index-grid.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-</head>
-<body class="body page-index clearfix">
-  <header class="header clearfix" id="header">    
-    <div class="header-scroll">
-    <div class="header_logo"></div>
-    <nav class="navigation clearfix">
-      <a class="nav main" href="#">Главная</a>
-      <a class="nav about" href="#">О Нас</a>
-      <a class="nav login" href="#">Вход</a>
-      <a class="nav signup_btn" href="#"><p class="signup_text">Регистрация</p></a> 
-    </nav>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body id="page-top" data-target="#navbar-fixed-top">
+  <div class="container-fluid header">
+    <div class="row">
+        <img src="img/soccer.png" class="img-responsive header_img" alt="soccer">
+        <h2 class="header_h">Текст текст текст..</h2>
+        <p class="header_p">..текст текст текст текст текст текст</p>
+        <a class="header_btn" href="#">найти поле рядом</a>
+     </div>       
 </div>
-   <div class="header_darken"></div>
-    <div class="header_search clearfix">
-      <div class="header_sports clearfix">
-        <div class="football"></div>
-        <div class="basketball"></div>
-        <div class="tennis"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-transparent navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
       </div>
-      <div class="header_location clearfix">
-        <div class="header_location-icon"></div>
-        <p class="header_location-text">Поле рядом</p>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#"></a>
+          </li>
+          <li>
+            <a class="active" href="#">главная</a>
+          </li>
+          <li>
+            <a href="#">поиск</a>
+          </li>
+          <li>
+            <a href="#">блог</a>
+          </li>
+           <li class="login">
+            <a href="#">войти</a>
+          </li>
+        </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
+  </nav>
+
+<div class="container sports">
+    <div class="row">
+        <a href="#">
+            <div class="col-xs-4" id="football">
+               <div class="sport_block">
+                <img class="img-resopnsive sport_icon" id="foot"  src="img/football.png"alt="football">
+                <p class="sport_label">футбол</p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-xs-4 sport_block" id="basketball">
+                <img class="img-resopnsive sport_icon" id="basket" src="img/basketball.png" alt="basketball">
+                <p class="sport_label">баскетбол</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="col-xs-4 sport_block" id="tennis">
+                <img class="img-resopnsive sport_icon" id="tenn" src="img/tennis.png" alt="tennis">
+                <p class="sport_label">теннис</p>
+            </div>
+        </a>
+        <span class="separator"></span>
+        <span class="separator_2"></span>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+    <img src="img/soccer_fans.png" class="img-responsive fans_img" alt="soccer">
+    </div>       
+</div>
+<div class="container map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=njTaNaGU1PWLQe1iaab6IvUIhIj8q8E1&width=100%&height=40vw&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+</div>
+   
+<div class="container-fluid hidden-xs">
+<div class="row">
+<div class="col-sm-12">
+    <div class="page-header">
+        <h3>Избранные <small> Поля, которые мы рекомендуем</small></h3>
+    </div>
+        
+<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="">
+    <div class="carousel-inner">
+        <div class="item active">
+            <ul class="thumbnails">
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/kpi.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/spartak.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/dinamo.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- /Slide1 -->
+        <div class="item">
+            <ul class="thumbnails">
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/nsk.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/5element.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+                <li class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="#"><img src="img/bannikova.jpg" alt=""></a>
+                    </div>
+                    <div class="caption">
+                        <h4>Ядро КПИ</h4>
+                        <p><span class="glyphicon glyphicon-fullscreen"></span> 100м х 100м</p>
+                        <p><span class="glyphicon glyphicon-pushpin"></span> пр-т Победы, 37</p>
+                        <p><span class="glyphicon glyphicon-usd"></span> 500 грн/час</p>
+                        <a class="btn btn-mini" href="#"><span class="glyphicon glyphicon-menu-right"></span> Смотреть</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- /Slide2 -->
+
+    </div>
+
+
+    <!-- Controls -->
+    <div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
     
-  </header>
-  <div class="steps">
-    <div class="steps_container clearfix">
-      <h3 class="step step-1">Найди.</h3>
-      <p class="step_text step_text-1">Выбирай из большого списка спортивных полей Киева по виду спорта или месту расположения.</p>
-      <p class="number number-1">1</p>
-    </div>
-    <div class="steps_container steps_container-2 clearfix">
-      <h3 class="step step-2">Сними.</h3>
-      <p class="step_text step_text-2">Как только нашел то, что тебе нужно - бронируй и заплати через интернет.</p>
-      <p class="number number-2">2</p>
-    </div>
-    <div class="steps_container steps_container-3 clearfix">
-      <h3 class="step step-3">Играй.</h3>
-      <p class="step_text step_text-3">Поздравляем, ты нашел великолепное поле и снял его, а значит самое время играть.</p>
-      <p class="number number-3">3</p>
-    </div>
-  </div>
-  <div class="featured clearfix">
-    <h2 class="- recommend">TOP-7</h2>
-    <div class="pitch-carousel">
-      <div class="pitch-1 clearfix">
-        <div class="pitch-1_img"></div>
-        <h4 class="pitch_text pitch_text-1">НСК "Олимпийский"</h4>
-        <p class="pitch_text pitch_text-2">Красноармейская, 55;</p>
-        <p class="pitch_text pitch_text-3">120 000 грн/день</p>
-        <button class="_button">смотреть</button>
-      </div>
-      <div class="pitch-2 clearfix">
-        <div class="pitch-2_img"></div>
-        <h4 class="pitch_text pitch_text-4">УТК имени Банникова</h4>
-        <p class="pitch_text pitch_text-5">Лабораторный переулок, 7б;</p>
-        <p class="pitch_text pitch_text-6">1100 грн/час</p>
-        <button class="_button">смотреть</button>
-      </div>
-      <div class="pitch-3 clearfix">
-        <div class="pitch-3_img"></div>
-        <h4 class="pitch_text pitch_text-7">"5 элемент"</h4>
-        <p class="pitch_text pitch_text-8"> ул. Электриков, 29А</p>
-        <p class="pitch_text pitch_text-9"> 800 грн/час</p>
-        <button class="_button">смотреть</button>
-      </div>
-    </div>
-  </div>
-  <div class="map clearfix">
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=njTaNaGU1PWLQe1iaab6IvUIhIj8q8E1&width=960&height=450&lang=ru_UA&sourceType=constructor&scroll=true"></script>
-  </div>
-  <footer class="footer clearfix">
-    <div class="footer_logo"></div>
-    <h4 class="footer_sitemap">Карта сайта</h4>
-    <div class="footer_subscription clearfix">
-      <p class="subscription_label">Получать новости на почту ?</p>
-      <div class="subscription_form clearfix">
-        <input class="- subscription_input" name="e-mail" type="text">
-        <button class="subscription_btn">ДА</button>
-      </div>
-    </div>
-    <div class="footer_sport-types clearfix">
-      <h4 class="footer_sports">Виды спорта</h4>
-      <p class="footer_sport footer_sport-1">футбол</p>
-      <p class="footer_sport footer_sport-2">баскетбол</p>
-      <p class="footer_sport footer_sport-3">теннис</p>
-    </div>
-    <div class="footer_info">
-      <p>2016 book2play</p>
-      <p>All Rights Reserved</p>
-</div>
-  </footer>
-  <script src="js/headhesive.min.js"></script>
-  <script>
-      var options = {
-  offset: 50
-      }
-    var header = new Headhesive('.header-scroll', options);
-  </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  <script src="slick/slick.min.js"></script>
-  <script src="js/js.js"></script>
-</body>
+<footer class="footer">
+    
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
 </html>
